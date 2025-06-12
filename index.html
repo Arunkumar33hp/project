@@ -1,0 +1,574 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="Untree.co">
+	<link rel="shortcut icon" href="favicon.png">
+
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+
+	<link rel="stylesheet" href="fonts/icomoon/style.css">
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+	<link rel="stylesheet" href="css/tiny-slider.css">
+	<link rel="stylesheet" href="css/aos.css">
+	<link rel="stylesheet" href="css/flatpickr.min.css">
+	<link rel="stylesheet" href="css/glightbox.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<title>Jcom Web page</title>
+</head>
+<style>
+	.site-nav {
+	font-weight:bold;
+	font-size: large;
+   padding-top: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background: #fff;          
+  color: #111;               
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.site-nav.scrolled {
+	 margin-top: 10px;
+  background-color: #fff;    
+  color: #111;               
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+
+.site-nav a {
+  color: #111 !important;
+}
+
+.site-nav a:hover {
+	color: #0f9fe7 !important;
+}
+
+
+</style>
+<script>
+  window.addEventListener("scroll", function () {
+    const nav = document.querySelector(".site-nav");
+    nav.classList.toggle("scrolled", window.scrollY > 50);
+  });
+</script>
+
+<body>
+
+	<div class="site-mobile-menu site-navbar-target">
+		<div class="site-mobile-menu-header">
+			<div class="site-mobile-menu-close">
+				<span class="icofont-close js-menu-toggle"></span>
+			</div>
+		</div>
+		<div class="site-mobile-menu-body"></div>
+	</div>
+
+	<nav class="site-nav">
+		<div class="container">
+			<div class="menu-bg-wrap">
+				<div class="site-navigation">
+					<div class="row g-0 align-items-center">
+						<div class="col-2">
+							<a href="index.html" class="logo m-0 float-start text-white">J<span style="color:  #0f9fe7;">COM</span></a>
+						</div>
+						<div class="col-8 text-center">
+							<ul class="js-clone-nav d-none d-lg-inline-block text-start site-menu mx-auto">
+								<li class="active"><a href="index.html">Home</a></li>
+								<li class="has-children">
+									<a href="team.html">Team</a>
+									<ul class="dropdown">
+										<li><a href="#">Menu One</a></li>
+										<li><a href="#">Menu Two</a></li>
+										<li class="has-children">
+											<a href="#">Dropdown</a>
+											<ul class="dropdown">
+												<li><a href="#">Sub Menu One</a></li>
+												<li><a href="#">Sub Menu Two</a></li>
+												<li><a href="#">Sub Menu Three</a></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li><a href="about.html">About</a></li>
+								<li class="active"><a href="gallery.html">Gallery</a></li>
+								<li><a href="contact.html">Contact</a></li>
+								<li><a href="weekly.html">Weekly Events</a></li>
+							</ul>
+						</div>
+						<div class="col-2 text-end">
+							<a href="#" class="burger ms-auto float-end site-menu-toggle js-menu-toggle d-inline-block d-lg-none light">
+								<span></span>
+							</a>
+
+							<a href="#" class="call-us d-flex align-items-center">
+								<span class="icon-phone"></span>
+								<span>123-489-9381</span>
+							</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<div class="hero overlay" style="background-image: url('images/jcom.jpg')">
+		<div class="container">
+			<div class="row align-items-center justify-content-between">
+				<div class="col-lg-6 text-left">
+					<span class="subheading-white text-white mb-3" data-aos="fade-up">Jcom</span>
+					<h1 class="heading  mb-2" data-aos="fade-up"style="color:#ffff;">Developing Leaders for a Changing World</h1>
+					<p data-aos="fade-up" class=" mb-5 text-white lead text-white-50">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum minima dignissimos hic mollitia eius et quam ducimus maiores eos magni.</p>
+					<p data-aos="fade-up"  data-aos-delay="100">
+						<a href="#" class="btn btn-primary me-4 d-inline-flex align-items-center"><span>Load More</span></a> 
+						<a href="https://www.youtube.com/watch?v=mwtbEGNABWU" class="text-white glightbox d-inline-flex align-items-center"><span class="icon-play me-2"></span><span>Watch the video</span></a>
+					</p>		
+					
+				</div>
+
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="section bg-light">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6" data-aos="fade-up">
+					<div class="vision">
+						<h2>Our Vision</h2>
+					    <p class="mb-4 lead">To be the leading platform in Tamil Nadu that empowers young entrepreneurs and business leaders to innovate, grow, and contribute meaningfully to a vibrant and sustainable economy..</p>
+						<p><a href="#" class="link-underline">Learn More</a></p>
+					</div>
+				</div>
+				<div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+					<div class="mission">
+						<h2>Our Mission</h2>
+                        <p class="mb-4 lead">To nurture entrepreneurial spirit through impactful training, mentorship, and capacity-building programs.To build confident, skilled leaders who drive positive change in their communities and industries.</p>
+						<p><a href="#" class="link-underline">Learn More</a></p>
+					</div>
+				</div>
+			</div>		
+		</div>		
+	</div>
+
+
+	<div class="section flip-section" style="background-image: url('images/img_v_2-min.jpg')">
+		<div class="blob-1">
+			<img src="images/blob.png" alt="Image" class="img-fluid">
+		</div>
+		<div class="container">
+			<div class="row justify-content-center mb-5">
+				<div class="col-lg-7 text-center" data-aos="fade-up">
+					<span class="subheading-white mb-3 text-white">Why Join Jcom</span>
+					<h2 class="heading text-white">Our Activities</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 position-relative" data-aos="fade-up" data-aos-delay="100">
+					<div class="card-flip">
+						<div class="flip">
+							<div class="front">
+								<!-- front content -->
+								<div class="flip-content-wrap">
+									<img src="images/icon.png" style="width:55px;">
+									<h3 style="padding-top:4px;">Leadership Development</h3>
+								</div>
+							</div>
+							<div class="back">
+								<!-- back content -->
+								<div class="flip-content-wrap">
+									<h3>Leadership Development</h3>
+									<p>Empowering individuals to lead with purpose, inspire change, and grow</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- End Card Flip -->
+				</div>
+				<div class="col-lg-3 position-relative" data-aos="fade-up" data-aos-delay="200">
+					<div class="card-flip">
+						<div class="flip">
+							<div class="front">
+								<!-- front content -->
+								<div class="flip-content-wrap">
+									<img src="images/self.png" style="width:60px;">
+									<h3>Self Development</h3>
+								</div>
+							</div>
+							<div class="back">
+								<!-- back content -->
+								<div class="flip-content-wrap">
+									<h3>Self Development</h3>
+									<p>Focused on self-development through continuous learning, growth, and personal excellence.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="col-lg-3 position-relative" data-aos="fade-up" data-aos-delay="300">
+					<div class="card-flip">
+						<div class="flip">
+							<div class="front">
+								<!-- front content -->
+								<div class="flip-content-wrap">
+									<img src="images/money.png" style="width:60px;">
+									<h3>Business development</h3>
+								</div>
+							</div>
+							<div class="back">
+								<!-- back content -->
+								<div class="flip-content-wrap">
+									<h3>Business development</h3>
+									<p>Driven by innovation and strategy to foster growth and build impactful business solutions.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="col-lg-3 position-relative" data-aos="fade-up" data-aos-delay="400">
+					<div class="card-flip">
+						<div class="flip">
+							<div class="front">
+								<!-- front content -->
+								<div class="flip-content-wrap">
+									<img src="images/groe.png" style="width:60px;">
+									<h3>Individual growth</h3>
+								</div>
+							</div>
+							<div class="back">
+								<!-- back content -->
+								<div class="flip-content-wrap">
+									<h3>Individual growth</h3>
+									<p>Focused on self-discovery, mindset growth, and unlocking true personal potential..</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>		
+		</div>		
+	</div>
+
+
+
+
+	<div class="section">
+		<div class="container">
+			<div class="row mb-5 align-items-center justify-content-between">
+				<div class="col-lg-5" data-aos="fade-up" data-aos-delay="0">
+					<span class="subheading mb-3">Who we are</span>
+					<h2 class="heading">About Us</h2>
+				<p>JCOM (Jaycees Chamber of Commerce) is a dynamic initiative under JCI India, dedicated to empowering young entrepreneurs and business leaders across Tamil Nadu. </p>
+				</div>
+
+				<div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+					<blockquote>
+						JCOM chapters in Tamil Nadu are contributing to the growth of the entrepreneurial ecosystem by providing valuable resources, support, and opportunities for young entrepreneurs. 
+					</blockquote>
+				</div>
+			</div>
+			<div class="row justify-content-between">
+				<div class="col-lg-5 pe-lg-5" data-aos="fade-up" data-aos-delay="200">
+
+					<ul class="nav nav-pills mb-5 custom-nav-pills" id="pills-tab" role="tablist">
+						<li class="nav-item" role="presentation">
+							<button class="nav-link active" id="pills-mission-tab" data-bs-toggle="pill" data-bs-target="#pills-mission" type="button" role="tab" aria-controls="pills-mission" aria-selected="true">Our Mission</button>
+						</li>
+						<li class="nav-item" role="presentation">
+							<button class="nav-link" id="pills-values-tab" data-bs-toggle="pill" data-bs-target="#pills-values" type="button" role="tab" aria-controls="pills-values" aria-selected="false">Our Values</button>
+						</li>
+						<li class="nav-item" role="presentation">
+							<button class="nav-link" id="pills-history-tab" data-bs-toggle="pill" data-bs-target="#pills-history" type="button" role="tab" aria-controls="pills-history" aria-selected="false">Our History</button>
+						</li>
+					</ul>
+					<div class="tab-content" id="pills-tabContent">
+						<div class="tab-pane fade show active" id="pills-mission" role="tabpanel" aria-labelledby="pills-mission-tab">
+							<h2 class="mb-3 text-primary fw-bold">Our Mission</h2>
+							<p> To nurture entrepreneurial spirit through impactful training, mentorship, and capacity-building programs.To facilitate meaningful networking and collaboration among entrepreneurs, industry leaders, and stakeholders.
+								To promote ethical business practices and inclusive economic growth across all JCOM chapters..</p>
+							<p>	To support members in accessing resources, markets, and opportunities for business expansion and innovation</p>
+							<p class="mt-5">
+								<a href="#" class="btn btn-primary me-4">Read More</a>
+								<a href="#" class="link-more">Learn More <span class="icon-chevron-right"></span></a>
+							</p>
+						</div>
+						<div class="tab-pane fade" id="pills-values" role="tabpanel" aria-labelledby="pills-values-tab">
+							<h2 class="mb-3 text-primary fw-bold">Our Values</h2>
+							<p>Here's a suggested Vision and Mission statement for JCOM (Jaycees Chamber of Commerce) Tamil Nadu, aligning with its purpose of empowering young entrepreneurs and facilitating business growth:</p>
+							<p>To be the leading platform in Tamil Nadu that empowers young entrepreneurs and business leaders to innovate, grow, and contribute meaningfully to a vibrant and sustainable economy.</p>
+							<p class="mt-5">
+								<a href="#" class="btn btn-primary me-4">Read More</a>
+								<a href="#" class="link-more">Learn More <span class="icon-chevron-right"></span></a>
+							</p>
+						</div>
+						<div class="tab-pane fade" id="pills-history" role="tabpanel" aria-labelledby="pills-history-tab">
+
+							<h2 class="mb-3 text-primary fw-bold">Our History</h2>
+							<p>JCOM, which stands for Jaycees Chamber of Commerce, is a business program within JCI (Junior Chamber International) that focuses on networking and developing business opportunities for JCI members. JCOM also recognizes JCI members based on the size of their tables, with different levels of recognition awarded during events like NATCON.  </p>
+                             <p>JCOM is active in Tamil Nadu, with events and local chapters like JCOM Zone 17 and JCOM L Tirupur.</p>
+							<p class="mt-5">
+								<a href="#" class="btn btn-primary me-4">Read More</a>
+								<a href="#" class="link-more">Learn More <span class="icon-chevron-right"></span></a>
+							</p>
+						</div>
+					</div>
+
+				</div>
+				<div class="col-lg-6">
+					<div class="overlap-imgs">
+						<img src="images/jcom2.jpg" alt="Image" class="img-fluid rounded" data-aos="fade-up" data-aos="100" style="width: 636px; height: 514px; ">
+						<img src="images/jcom3.jpg" alt="Image" class="img-fluid rounded" data-aos="fade-up" data-aos="200" style="width: 300px; height: 230px; ">
+					</div>
+				</div>		
+			</div>		
+		</div>		
+	</div>
+
+
+	<div class="section cause-section bg-light">
+
+		<div class="container">
+			<div class="row justify-content-center mb-5">
+				<div class="col-lg-6 text-center" data-aos="fade-up" data-aos-delay="100">
+					<span class="subheading mb-3">Causes</span>
+					<h2 class="heading">What we do</h2>
+					<p>JCOM (Jaycees Chamber of Commerce) is a dynamic initiative under JCI India, dedicated to empowering young entrepreneurs and business leaders across Tamil Nadu.</p>
+
+					<div id="features-slider-nav" class="mt-5 d-flex justify-content-center">
+						<button  class="btn btn-primary prev d-flex align-items-center me-2" data-controls="prev"> <span class="icon-chevron-left"></span> <span class="ms-3">Prev</span></button>
+						<button class="btn btn-primary next d-flex align-items-center" data-controls="next"><span class="me-3">Next</span> <span class="icon-chevron-right"></span></button>
+					</div>
+				</div>
+			</div>	
+		</div>
+
+
+		<div class="container mb-5">
+			<div class="features-slider-wrap position-relative" data-aos="fade-up" data-aos-delay="200">
+				<div class="features-slider" id="features-slider">
+
+					<div class="item">
+						<div class="causes-item bg-white">
+							<a href="#"><img src="images/leadership.jpg" alt="Image" class="img-fluid mb-4 rounded"></a>
+							<div class="px-4 pb-5 pt-3">
+
+								<h3><a href="#">Business & Entrepreneurship</a></h3>
+								<p>Driven by a mindset of continuous self-improvement, innovation, and entrepreneurial leadership for long-term success</p>
+								<div>
+									<a href="#" class="btn btn-primary">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="item">
+						<div class="causes-item bg-white">
+							<a href="#"><img src="images/personal.jpg" alt="Image" class="img-fluid mb-4 rounded" style="width:464px;height:275px;"></a>
+							<div class="px-4 pb-5 pt-3">
+								<h3><a href="#">Community action</a></h3>
+								<p>Committed to personal growth through meaningful community engagement, leadership, and purpose-driven action</p>
+								<div>
+									<a href="#" class="btn btn-primary">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="item">
+						<div class="causes-item bg-white">
+							<a href="#"><img src="images/togethor.jpg" alt="Image" class="img-fluid mb-4 rounded"></a>
+							<div class="px-4 pb-5 pt-3">
+								<h3><a href="#">Togethor</a></h3>
+								<p>Dedicated to continuous personal growth through resilience, self-awareness, and purposeful<br>
+									 learning.</p>
+								<div>
+									<a href="#" class="btn btn-primary">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="item">
+						<div class="causes-item bg-white">
+							<a href="#"><img src="images/lift.jpg" alt="Image" class="img-fluid mb-4 rounded"style="width:464px;height:278px;"></a>
+							<div class="px-4 pb-5 pt-3">
+
+								<h3><a href="#">Analyse</a></h3>
+								<p>Committed to personal and professional growth through strategic thinking, innovation, and a strong entrepreneurial spirit.</p>
+								<div>
+									<a href="#" class="btn btn-primary">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="item">
+						<div class="causes-item bg-white">
+							<a href="#"><img src="images/enter.jpg" alt="Image" class="img-fluid mb-4 rounded" style="width:464px;height:278px;"></a>
+							<div class="px-4 pb-5 pt-3">
+								<h3><a href="#">Develop</a></h3>
+								<p>Empowering individual growth through active community leadership, collaboration, and purpose-driven innovation.</p>
+								<div>
+									<a href="#" class="btn btn-primary">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="item">
+						<div class="causes-item bg-white">
+							<a href="#"><img src="images/grow.jpg" alt="Image" class="img-fluid mb-4 rounded" style="width:464px;height:278px;"></a>
+							<div class="px-4 pb-5 pt-3">
+								<h3><a href="#">Individual growth</a></h3>
+								<p>Focused on personal growth, learning from challenges, and building a strong, independent mindset.</p>
+								<div>
+									<a href="#" class="btn btn-primary">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+				</div>
+			</div>
+		</div>
+
+
+	</div>		
+
+
+
+	<div class="section flip-section secondary-bg" style="background-image: url('images/jcom.jpg');">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7 mx-auto text-center">
+					<span class="subheading-white mb-3 text-white" data-aos="fade-up">Help Now</span>
+					<h3 class="mb-4 heading text-white" data-aos="fade-up">Developing Leaders for a Changing World</h3>
+					<a href="#" class="btn btn-outline-white me-3" data-aos="fade-up" data-aos-delay="100">Become a Volunteer</a> <a href="#" class="btn btn-outline-white" data-aos="fade-up" data-aos-delay="200">Donate Now</a>
+				</div>		
+			</div>		
+		</div>		
+	</div>
+
+	<div class="site-footer">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-6 col-sm-6 col-md-6 col-lg-3 px-4">
+					<div class="widget">
+						<h3>J<span style="color:  #0f9fe7;">COM</span></h3>
+						<p style="color:  white;">JCOM (Jaycees Chamber of Commerce) is a dynamic initiative under JCI India, dedicated to empowering young entrepreneurs and business leaders across Tamil Nadu</p>
+					</div> <!-- /.widget -->
+				</div> 
+
+				<div class="col-6 col-sm-6 col-md-6 col-lg-3">
+					<div class="widget">
+						<h3 style="color:  #0f9fe7;">Navigation</h3>
+						<ul class="list-unstyled float-left links">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Team</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Gallery</a></li>
+							<li><a href="#">Contact</a></li>
+							
+						</ul>
+					</div> <!-- /.widget -->
+				</div> <!-- /.col-lg-3 -->
+
+				<!-- /.col-lg-3 -->
+
+				<div class="col-6 col-sm-6 col-md-6 col-lg-3">
+					<div class="widget">
+						<h3 style="color:  #0f9fe7;">Services</h3>
+						<ul class="list-unstyled float-left links">
+							<li><a href="#">Networking</a></li>
+							<li><a href="#">Bussiness Growth</a></li>
+							<li><a href="#">Learning and Development</a></li>
+							<li><a href="#">Collaboration</a></li>
+							<li><a href="#">Community Building</a></li>
+						</ul>
+					</div> <!-- /.widget -->
+				</div> <!-- /.col-lg-3 -->
+
+
+				<div class="col-6 col-sm-6 col-md-6 col-lg-3">
+					<div class="widget">
+						<h3 style="color:  #0f9fe7;">Contact</h3>
+						<address>43 Raymouth Rd. Baltemoer, London 3910</address>
+						<ul class="list-unstyled links mb-4">
+							<li><a href="tel://11234567890">+1(123)-456-7890</a></li>
+							<li><a href="tel://11234567890">+1(123)-456-7890</a></li>
+							<li><a href="mailto:info@mydomain.com">info@mydomain.com</a></li>
+						</ul>
+
+						<h3 style="color:  #0f9fe7;">Connect</h3>
+						<ul class="list-unstyled social">
+							<li><a href="#"><span class="icon-instagram"></span></a></li>
+							<li><a href="#"><span class="icon-twitter"></span></a></li>
+							<li><a href="#"><span class="icon-facebook"></span></a></li>
+							<li><a href="#"><span class="icon-linkedin"></span></a></li>
+						</ul>
+
+					</div> <!-- /.widget -->
+				</div> <!-- /.col-lg-3 -->
+
+			</div> <!-- /.row -->
+
+
+			<div class="row mt-5">
+				<div class="col-12 text-center">
+					<p class="copyright">Copyright &copy;<script>document.write(new Date().getFullYear());</script>. All Rights Reserved. &mdash; Designed with love by <a href="https://kairatechnologies.in/">KairaTechnologies</a> <!-- License information: https://untree.co/license/ -->
+					</p>
+				</div>
+			</div>
+		</div> <!-- /.container -->
+	</div> <!-- /.site-footer -->
+
+
+
+
+
+
+
+	<!-- Preloader -->
+	<div id="overlayer"></div>
+	<div class="loader">
+		<div class="spinner-border text-primary" role="status">
+			<span class="visually-hidden">Loading...</span>
+		</div>
+	</div>
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/tiny-slider.js"></script>
+
+	<script src="js/flatpickr.min.js"></script>
+	<script src="js/glightbox.min.js"></script>
+
+
+	<script src="js/aos.js"></script>
+	<script src="js/navbar.js"></script>
+	<script src="js/counter.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+</html>
